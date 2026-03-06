@@ -1,0 +1,406 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*Nav-Bar*/
+
+.Header{
+    display: flex;
+    background-color: #111318;
+    color: #fff;
+    width: 100%;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+
+.logo-container {
+  flex: 0.1;
+  text-align:center;
+  font-family: "Amita";
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.nav {
+  flex: 0.8;
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.nav-item{
+    padding: 10px;
+    font-family: "ubuntu";
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.lang {
+  flex: 0.1; 
+  text-align: center;
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+}
+
+.lang-btn{
+    height: 25px;
+    width: 50px;
+    background-color:#DDE2F0;
+    color: black;
+    font-family: 'ubuntu';
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;      /* Vertical center */
+    cursor: pointer;
+}
+
+/*--ABOUT--*/
+
+.about-container{
+    display: flex;
+    background-color: #E1F0E1;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.my-photo{
+    flex: 1;
+    padding-left:25px ;
+}
+.my-photo img {
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.about{
+    flex: 3;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.about h1{
+    font-size: 54px;
+    font-family: 'amita';
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+.about p{
+    font-size: 25px;
+    font-family: 'ubuntu';
+    margin-top: 0;
+}
+
+
+/*--QuoteCard--*/
+
+.QuoteCard{
+    font-family: "Playfair Display";
+    font-style: italic;
+}
+
+.QuoteCard img{
+    padding: 20px;
+}
+.QuoteCard p{
+    width: 680px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+/*Footer*/
+
+.Footer{
+    text-align: center;
+    margin: auto;
+    background-color: #111318;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 0;
+}
+.Footer h5 {
+    font-family: "Amita";
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.Footer h6 {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'ubuntu';
+    color: #9CA3AF;
+    padding-bottom: 10px;
+}
+.Footer p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'ubuntu';
+    color: #9CA3AF;
+    padding-bottom: 20px;
+}
+
+
+
+/*--ShayariCard--*/
+
+.ShayariCard{
+    margin: auto;
+    width: 90%;
+    padding: 30px 100px 30px 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.poem {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Tiro Devanagari Hindi", serif;
+    margin-bottom: 25px;
+}
+
+.author{
+    text-align: center;
+    font-family: 'amita';
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.detail{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+}
+
+.date{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    font-family: 'ubuntu';
+    color: #6B7280;
+}
+
+
+.copy{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    font-family: 'ubuntu';
+    color: #6B7280;
+    cursor: pointer;
+}
+.date img, .copy img{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+/*Contact-Page*/
+.banner{
+    width: 100%;
+    background-color: #E1F0FB;
+    border-radius: 0 0 200px 0;
+}
+.banner h1{
+    font-size: 54px;
+    font-family: 'amita';
+    padding-top: 30px;
+    padding-left:25px
+}
+.banner p{
+    font-size: 25px;
+    font-family: 'ubuntu';
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+
+.social-media{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.shaayar h2{
+    display: flex;
+    margin-left: 65%;
+    margin-top: 50px;
+    font-family: 'amita';
+    font-size: 25px;
+    font-weight: bold;
+}
+.coder h2{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-family: 'ubuntu';
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.links{
+    margin-top: 20px;
+}
+.yt, .ig, .gh, .li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+}
+
+.yt, .ig{
+    margin-right:auto ;
+    justify-content: flex-end;
+}
+
+.shaayar{
+    flex: 1;
+    justify-content: space-between;
+}
+
+.coder{
+    flex: 1;
+}
+
+.photo{
+    flex: 1;
+}
+
+.photo img{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+
+.email{
+    width: 100%;
+    background-color: #F0E060;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    color: #000;
+    padding: 50px;
+}
+
+/*Error Page*/
+.Error{
+    width: 100%;
+    background-color:#fff;
+}
+
+.Error  h1{
+    font-family: 'amita';
+    width: 90%;
+    margin-top: 10%;
+    padding-left: 5%;
+    font-size: 150px;
+    font-weight: bold;
+    color: tomato;
+}
+.Error h2{
+    font-family: 'amita';
+    width: 99%;
+    font-size: 50px;
+    padding-left:5%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    color: tomato;
+}
+.Error h3{
+    font-family: 'ubuntu';
+    background-color: #111318;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline;
+    margin-left: 5%;
+    color: #fff;
+}
+
+
+
+/*Mobile_View*/
+
+
+@media (max-width:768px){
+  .nav-item{
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .lang-btn{
+    margin-right: 10px;
+  }
+  .about-container{
+    display: block;
+    width: 100%;
+  }
+  .about h1{
+    display: none;
+  }
+  .my-photo{
+    width: 100%;
+  }
+  .my-photo img{
+    margin: auto;
+  }
+  .about {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .about p{
+    margin-top: auto;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .QuoteCard p{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .ShayariCard{
+    padding: 30px 20px 30px 20px;
+  }
+ .poem {
+    font-size: 18px;
+  }
+ .author{
+    font-size: 18px;
+  }
+ .detail{
+    width: 90%;
+  }
+  .date {
+    font-size: 15px;
+  }
+  .copy{
+    font-size: 15px;
+  }
+  .Footer h6{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "message": "Khayaal API",
+  "poem": [
+    {
+      "id": 1,
+      "poem_hindi": "ये आँखें तुम्हारी और आंखों का काजल,\n\nना जाने कितनो को करती हैं घायल ।\n\nये दो झुमके और चार कंगन,\n\nदिल मेरा इनका कबसे है कायल ।\n\nदे दो एक जगह मैं इनके साथ रहलूं,\n\nबना दो एक आयल जो रहे अजरायल ।\n\nमुझे तुम बनालो अपने माथे की बिंदी,\n\nया फिर बनालो अपने पैरों का पायल ।",
+      "poem_urdu": "",
+      "poem_english": "",
+      "author": "Yankosh Badal",
+      "date": "26FEB2026"
+    },
+    {
+      "id": 2,
+      "poem_hindi": "ये आँखें तुम्हारी और आंखों का काजल,\nना जाने कितनो को करती हैं घायल ।\n\nये दो झुमके और चार कंगन,\nदिल मेरा इनका कबसे है कायल ।\n\nदे दो एक जगह मैं इनके साथ रहलूं,\n\nबना दो एक आयल जो रहे अजरायल ।\n\nमुझे तुम बनालो अपने माथे की बिंदी,\n\nया फिर बनालो अपने पैरों का पायल ।",
+      "poem_urdu": "",
+      "poem_english": "",
+      "author": "Yankosh Badal",
+      "date": "26FEB2026"
+    },
+    {
+      "id": 3,
+      "poem_hindi": "ये आँखें तुम्हारी और आंखों का काजल,\nना जाने कितनो को करती हैं घायल ।\n\nये दो झुमके और चार कंगन,\nदिल मेरा इनका कबसे है कायल ।\n\nदे दो एक जगह मैं इनके साथ रहलूं,\n\nबना दो एक आयल जो रहे अजरायल ।\n\nमुझे तुम बनालो अपने माथे की बिंदी,\n\nया फिर बनालो अपने पैरों का पायल ।",
+      "poem_urdu": "",
+      "poem_english": "",
+      "author": "Yankosh Badal",
+      "date": "26FEB2026"
+    },
+    {
+      "id": 4,
+      "poem_hindi": "ये आँखें तुम्हारी और आंखों का काजल,\nना जाने कितनो को करती हैं घायल ।\n\nये दो झुमके और चार कंगन,\nदिल मेरा इनका कबसे है कायल ।\n\nदे दो एक जगह मैं इनके साथ रहलूं,\n\nबना दो एक आयल जो रहे अजरायल ।\n\nमुझे तुम बनालो अपने माथे की बिंदी,\n\nया फिर बनालो अपने पैरों का पायल ।",
+      "poem_urdu": "",
+      "poem_english": "",
+      "author": "Yankosh Badal",
+      "date": "26FEB2026"
+    }
+  ],
+  "about":"Welcome to 'Khayaal'. My name is Yankosh Kumar Badal, born on 28th June 2002.\nI write Urdu and Hindi shayari. These writings are a reflection of my thoughts, feelings, and experiences.\n\nI completed my Software Engineering from Central University of Chhattisgarh. While my academic background lies in engineering, my heart has always belonged to poetry.\n\nAlong with writing, I also enjoy reciting poetry.",
+  "qoute":"“If I write what you may feel but cannot say, it does not make me a poet. It makes me a bridge… and I am humbled and I am grateful to assist your heart in speaking.”\n- Nayyirah Waheed, (Salt)",
+  "blogs": [
+    {
+        "id":1,
+        "title":"Tiltle",
+        "date":"26FEB2026",
+        "body":"ABC",
+        "author":"Yankosh Badal"
+    },
+    {
+        "id":2,
+        "title":"Tiltle",
+        "date":"26FEB2026",
+        "body":"ABC",
+        "author":"Yankosh Badal"
+    }
+  ]
+}

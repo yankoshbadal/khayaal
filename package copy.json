@@ -1,0 +1,28 @@
+{
+  
+  "homepage": "https://yankoshbadal.github.io/khayaal",
+
+  "name": "khayaal",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "license": "ISC",
+  "author": "Yankosh Badal",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^6.30.3"
+  }
+}
