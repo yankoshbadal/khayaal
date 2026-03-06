@@ -764,7 +764,7 @@ const AppLayout = ()=>{
     }, undefined);
 };
 _c = AppLayout;
-const appRouter = (0, _reactRouterDom.createBrowserRouter)([
+const appRouter = (0, _reactRouterDom.createHashRouter)([
     {
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
@@ -796,16 +796,14 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             columnNumber: 23
         }, undefined)
     }
-], {
-    basename: "/khayaal"
-});
+]);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 //root.render(<AppLayout />);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 46,
+    lineNumber: 43,
     columnNumber: 13
 }, undefined));
 var _c;
