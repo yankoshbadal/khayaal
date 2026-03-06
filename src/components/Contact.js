@@ -26,7 +26,7 @@ const Contact = () => {
                 <div className="coder">
                     <h2>&lt;coder/&gt;</h2>
                     <div className="links">
-                        <a href="https://github.com/yankoshbadal"target="_blank" rel="noopener noreferrer"><div className="gh"><img src={GH}/> <p>github.com.yankoshbadal</p></div></a>
+                        <a href="https://github.com/yankoshbadal"target="_blank" rel="noopener noreferrer"><div className="gh"><img src={GH}/> <p>www.github.com/yankoshbadal</p></div></a>
                         <a href="https://linkedin.com/in/yankoshbadal"target="_blank" rel="noopener noreferrer"><div className="li"><img src={LI}/> <p>linkedin.com/in/yankoshbadal</p></div></a>
                     </div>
                 </div>

@@ -277,7 +277,7 @@ a{
 
 .shaayar{
     flex: 1;
-    justify-content: space-between;
+
 }
 
 .coder{
@@ -403,4 +403,75 @@ a{
   .Footer h6{
     font-size: 15px;
   }
+
+  /*M-contacts*/
+  .banner h1{
+    font-size: 24px;
+    padding-left: 15px;
+  }
+  .banner p{
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  .social-media{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.shaayar h2{
+    margin-left: 15%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.coder h2{
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.links{
+    margin-top: 10px;
+}
+.yt, .ig, .gh, .li{
+    display: inline;
+    align-items: center;
+    padding: 10px;
+    margin-left: 0;
+}
+.yt img, .ig img, .gh img, .li img{
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+.yt p, .ig p, .gh p, .li p{
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    margin:0 auto;
+    padding: 7px;
+}
+.yt, .ig{
+    margin-left: 10px ;
+}
+
+.shaayar{
+    flex: 0.5;
+}
+
+.coder{
+    flex: 0.5;
+}
+
+.photo{
+    flex: 1;
+}
+
+.photo img{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.email{
+    font-size: 20px;
+}
 }
