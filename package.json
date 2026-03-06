@@ -7,8 +7,8 @@
   "author": "Yankosh Badal",
   "type": "commonjs",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
