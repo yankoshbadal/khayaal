@@ -424,7 +424,7 @@ a{
     font-size: 18px;
 }
 .coder h2{
-    margin-left: 35%;
+    margin-left: 5%;
     margin-top: 10px;
     font-size: 18px;
 }
@@ -440,15 +440,11 @@ a{
 }
 .yt img, .ig img, .gh img, .li img{
     margin: auto;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
 }
 .yt p, .ig p, .gh p, .li p{
-    display: flex;
-    align-items: center;
-    font-size: 9px;
-    margin:0 auto;
-    padding: 7px;
+    display: none;
 }
 .yt, .ig{
     margin-left: 10px ;
@@ -463,7 +459,7 @@ a{
 }
 
 .photo{
-    flex: 1;
+    flex: 1.5;
 }
 
 .photo img{
@@ -473,5 +469,6 @@ a{
 }
 .email{
     font-size: 20px;
+    height: 200px;
 }
 }
