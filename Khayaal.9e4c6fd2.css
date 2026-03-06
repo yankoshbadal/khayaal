@@ -652,7 +652,7 @@ a {
 
   .coder h2 {
     margin-top: 10px;
-    margin-left: 35%;
+    margin-left: 5%;
     font-size: 18px;
   }
 
@@ -668,17 +668,13 @@ a {
   }
 
   .yt img, .ig img, .gh img, .li img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     margin: auto;
   }
 
   .yt p, .ig p, .gh p, .li p {
-    align-items: center;
-    margin: 0 auto;
-    padding: 7px;
-    font-size: 9px;
-    display: flex;
+    display: none;
   }
 
   .yt, .ig {
@@ -690,7 +686,7 @@ a {
   }
 
   .photo {
-    flex: 1;
+    flex: 1.5;
   }
 
   .photo img {
@@ -700,6 +696,7 @@ a {
   }
 
   .email {
+    height: 200px;
     font-size: 20px;
   }
 }
