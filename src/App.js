@@ -34,7 +34,11 @@ const appRouter = createBrowserRouter([
         ],
         errorElement: <Error/>,
     }
-])
+],
+{
+    basename: "/khayaal"
+  }
+)
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
