@@ -796,14 +796,16 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             columnNumber: 23
         }, undefined)
     }
-]);
+], {
+    basename: "/khayaal"
+});
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 //root.render(<AppLayout />);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 42,
+    lineNumber: 46,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -27749,7 +27751,7 @@ const Contact = ()=>{
                                                 }, undefined),
                                                 " ",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "github.com.yankoshbadal"
+                                                    children: "www.github.com/yankoshbadal"
                                                 }, void 0, false, {
                                                     fileName: "src/components/Contact.js",
                                                     lineNumber: 29,

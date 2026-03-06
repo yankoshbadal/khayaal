@@ -510,12 +510,7 @@ a {
   margin-right: auto;
 }
 
-.shaayar {
-  flex: 1;
-  justify-content: space-between;
-}
-
-.coder, .photo {
+.shaayar, .coder, .photo {
   flex: 1;
 }
 
@@ -631,6 +626,81 @@ a {
 
   .date, .copy, .Footer h6 {
     font-size: 15px;
+  }
+
+  .banner h1 {
+    padding-left: 15px;
+    font-size: 24px;
+  }
+
+  .banner p {
+    padding-left: 15px;
+    font-size: 15px;
+  }
+
+  .social-media {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .shaayar h2 {
+    margin-top: 10px;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .coder h2 {
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 18px;
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+
+  .yt, .ig, .gh, .li {
+    align-items: center;
+    margin-left: 0;
+    padding: 10px;
+    display: inline;
+  }
+
+  .yt img, .ig img, .gh img, .li img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .yt p, .ig p, .gh p, .li p {
+    align-items: center;
+    margin: 0 auto;
+    padding: 7px;
+    font-size: 9px;
+    display: flex;
+  }
+
+  .yt, .ig {
+    margin-left: 10px;
+  }
+
+  .shaayar, .coder {
+    flex: .5;
+  }
+
+  .photo {
+    flex: 1;
+  }
+
+  .photo img {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+
+  .email {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=Khayaal.9e4c6fd2.css.map */
