@@ -5,7 +5,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
-import { createBrowserRouter,RouterProvider, Outlet } from "react-router-dom"; // for Dynamic Path
+import { createHashRouter,RouterProvider, Outlet } from "react-router-dom"; // for Dynamic Path
 
 const AppLayout = () => {
     return (
@@ -18,7 +18,7 @@ const AppLayout = () => {
 }
 
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
     {
         path:"/",
         element:<AppLayout/>,
@@ -35,9 +35,6 @@ const appRouter = createBrowserRouter([
         errorElement: <Error/>,
     }
 ],
-{
-    basename: "/khayaal"
-  }
 )
 
 
