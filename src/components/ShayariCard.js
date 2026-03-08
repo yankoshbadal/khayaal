@@ -1,8 +1,11 @@
 const calendar = new URL("../utils/images/Calendar.svg", import.meta.url).href;
 const copy = new URL("../utils/images/Copy.svg", import.meta.url).href;
+import { useOutletContext } from "react-router-dom";
 
 const ShayariCard = ({poem, bgColor}) => {
 
+    const {language} = useOutletContext();
+    
     const copyText = ()=>{
         const text = poem.poem_hindi + "\n\n" + poem.author;
         navigator.clipboard.writeText(text);
@@ -12,7 +15,7 @@ const ShayariCard = ({poem, bgColor}) => {
     return (
         <div className="ShayariCard" style={{ backgroundColor: bgColor }}>
             <div className="poem" id="shayari">
-                <p style={{ whiteSpace: "pre-wrap" }}>{poem.poem_hindi}</p>
+                <p style={{ whiteSpace: "pre-wrap" }}>{poem[`poem_${language}`]}</p>
             </div>
             <div className="author">
                 <p>{poem.author}</p>

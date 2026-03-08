@@ -6,12 +6,16 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import { createHashRouter,RouterProvider, Outlet } from "react-router-dom"; // for Dynamic Path
+import { useState } from "react";
 
 const AppLayout = () => {
+
+    const [language, Setlanguage] = useState("hindi");
+
     return (
         <div>
-        <Header />
-        <Outlet />
+        <Header language={language} Setlanguage={Setlanguage} />
+        <Outlet context={{language}}/>
         <Footer />
         </div>
     );
