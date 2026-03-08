@@ -738,38 +738,49 @@ var _contactDefault = parcelHelpers.interopDefault(_contact);
 var _error = require("./components/Error");
 var _errorDefault = parcelHelpers.interopDefault(_error);
 var _reactRouterDom = require("react-router-dom"); // for Dynamic Path
+var _s = $RefreshSig$();
 const AppLayout = ()=>{
+    _s();
+    const [language, Setlanguage] = (0, _react.useState)("hindi");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
+                language: language,
+                Setlanguage: Setlanguage
+            }, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 13,
+                lineNumber: 17,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {
+                context: {
+                    language
+                }
+            }, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 18,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 12,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
+_s(AppLayout, "efEWbsYYHHnDK3By+PoDt9e/5uI=");
 _c = AppLayout;
 const appRouter = (0, _reactRouterDom.createHashRouter)([
     {
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 24,
+            lineNumber: 28,
             columnNumber: 17
         }, undefined),
         children: [
@@ -777,7 +788,7 @@ const appRouter = (0, _reactRouterDom.createHashRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 28,
+                    lineNumber: 32,
                     columnNumber: 26
                 }, undefined)
             },
@@ -785,14 +796,14 @@ const appRouter = (0, _reactRouterDom.createHashRouter)([
                 path: "/contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 32,
+                    lineNumber: 36,
                     columnNumber: 26
                 }, undefined)
             }
         ],
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 35,
+            lineNumber: 39,
             columnNumber: 23
         }, undefined)
     }
@@ -803,7 +814,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 43,
+    lineNumber: 47,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -19788,7 +19799,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
-const Header = ()=>{
+const Header = ({ language, Setlanguage })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "Header",
         children: [
@@ -19858,11 +19869,44 @@ const Header = ()=>{
                 className: "lang",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "lang-btn",
-                    children: "HIN"
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                        value: language,
+                        onChange: (e)=>Setlanguage(e.target.value),
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "hindi",
+                                children: "HIN"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 15,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "english",
+                                children: "ENG"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                value: "urdu",
+                                children: "URU"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Header.js",
-                    lineNumber: 12,
-                    columnNumber: 29
+                    lineNumber: 13,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Header.js",
@@ -27240,9 +27284,13 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
 const calendar = new URL(require("6bf972da1d66e12e")).href;
 const copy = new URL(require("72e8ba2f31c2465a")).href;
 const ShayariCard = ({ poem, bgColor })=>{
+    _s();
+    const { language } = (0, _reactRouterDom.useOutletContext)();
     const copyText = ()=>{
         const text = poem.poem_hindi + "\n\n" + poem.author;
         navigator.clipboard.writeText(text);
@@ -27261,21 +27309,7 @@ const ShayariCard = ({ poem, bgColor })=>{
                     style: {
                         whiteSpace: "pre-wrap"
                     },
-                    children: poem.poem_hindi
-                }, void 0, false, {
-                    fileName: "src/components/ShayariCard.js",
-                    lineNumber: 15,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/ShayariCard.js",
-                lineNumber: 14,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "author",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: poem.author
+                    children: poem[`poem_${language}`]
                 }, void 0, false, {
                     fileName: "src/components/ShayariCard.js",
                     lineNumber: 18,
@@ -27284,6 +27318,20 @@ const ShayariCard = ({ poem, bgColor })=>{
             }, void 0, false, {
                 fileName: "src/components/ShayariCard.js",
                 lineNumber: 17,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "author",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: poem.author
+                }, void 0, false, {
+                    fileName: "src/components/ShayariCard.js",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/ShayariCard.js",
+                lineNumber: 20,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27296,14 +27344,14 @@ const ShayariCard = ({ poem, bgColor })=>{
                                 src: calendar
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 21,
+                                lineNumber: 24,
                                 columnNumber: 39
                             }, undefined),
                             poem.date
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ShayariCard.js",
-                        lineNumber: 21,
+                        lineNumber: 24,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27314,35 +27362,40 @@ const ShayariCard = ({ poem, bgColor })=>{
                                 src: copy
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 66
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "COPY"
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 83
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ShayariCard.js",
-                        lineNumber: 22,
+                        lineNumber: 25,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ShayariCard.js",
-                lineNumber: 20,
+                lineNumber: 23,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/ShayariCard.js",
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
+_s(ShayariCard, "oNPYX3BrPPbdDKnGqqSVSRxfxU0=", false, function() {
+    return [
+        (0, _reactRouterDom.useOutletContext)
+    ];
+});
 _c = ShayariCard;
 exports.default = ShayariCard;
 var _c;
@@ -27353,7 +27406,7 @@ $RefreshReg$(_c, "ShayariCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","6bf972da1d66e12e":"hRpAX","72e8ba2f31c2465a":"dBEzK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"hRpAX":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","6bf972da1d66e12e":"hRpAX","72e8ba2f31c2465a":"dBEzK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w"}],"hRpAX":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("Calendar.36316535.svg") + "?" + Date.now();
 
 },{}],"dBEzK":[function(require,module,exports,__globalThis) {
