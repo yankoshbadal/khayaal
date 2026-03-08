@@ -363,6 +363,7 @@ a{
   }
   .lang-btn{
     margin-right: 20px;
+    margin-top: 5px;
   }
   .lang-btn select{
     font-size: 12px;
