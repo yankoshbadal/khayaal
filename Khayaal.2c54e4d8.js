@@ -27292,7 +27292,7 @@ const ShayariCard = ({ poem, bgColor })=>{
     _s();
     const { language } = (0, _reactRouterDom.useOutletContext)();
     const copyText = ()=>{
-        const text = poem.poem_hindi + "\n\n" + poem.author;
+        const text = poem[`poem_${language}`] + "\n\n" + poem.author;
         navigator.clipboard.writeText(text);
         alert("Text Copied");
     };
@@ -27312,12 +27312,12 @@ const ShayariCard = ({ poem, bgColor })=>{
                     children: poem[`poem_${language}`]
                 }, void 0, false, {
                     fileName: "src/components/ShayariCard.js",
-                    lineNumber: 18,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/ShayariCard.js",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27326,12 +27326,12 @@ const ShayariCard = ({ poem, bgColor })=>{
                     children: poem.author
                 }, void 0, false, {
                     fileName: "src/components/ShayariCard.js",
-                    lineNumber: 21,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/ShayariCard.js",
-                lineNumber: 20,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27344,14 +27344,14 @@ const ShayariCard = ({ poem, bgColor })=>{
                                 src: calendar
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 24,
+                                lineNumber: 23,
                                 columnNumber: 39
                             }, undefined),
                             poem.date
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ShayariCard.js",
-                        lineNumber: 24,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27362,32 +27362,32 @@ const ShayariCard = ({ poem, bgColor })=>{
                                 src: copy
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 25,
+                                lineNumber: 24,
                                 columnNumber: 66
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "COPY"
                             }, void 0, false, {
                                 fileName: "src/components/ShayariCard.js",
-                                lineNumber: 25,
+                                lineNumber: 24,
                                 columnNumber: 83
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ShayariCard.js",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ShayariCard.js",
-                lineNumber: 23,
+                lineNumber: 22,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/ShayariCard.js",
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 9
     }, undefined);
 };
