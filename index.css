@@ -349,12 +349,23 @@ a{
 
 
 @media (max-width:768px){
+  .Header{
+    width: 100%;
+    }
+  .logo-container{
+    font-size: 28px;
+    padding-left: 18px;
+    margin-top: 8px;
+  }
   .nav-item{
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 12px;
+    padding-top: 18px;
   }
   .lang-btn{
-    margin-right: 10px;
+    margin-right: 20px;
+  }
+  .lang-btn select{
+    font-size: 12px;
   }
   
   .about-container{
