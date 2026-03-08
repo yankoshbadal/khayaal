@@ -7,10 +7,9 @@ const ShayariCard = ({poem, bgColor}) => {
     const {language} = useOutletContext();
     
     const copyText = ()=>{
-        const text = poem.poem_hindi + "\n\n" + poem.author;
+        const text = poem[`poem_${language}`] + "\n\n" + poem.author;
         navigator.clipboard.writeText(text);
         alert("Text Copied");
-        
     };
     return (
         <div className="ShayariCard" style={{ backgroundColor: bgColor }}>
